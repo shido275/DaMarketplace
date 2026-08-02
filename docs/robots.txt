@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shido275.github.io/DaMarketplace/sitemap.xml

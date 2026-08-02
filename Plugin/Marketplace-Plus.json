@@ -1,0 +1,29 @@
+{
+    "id": "Marketplace-Plus",
+    "name": "Marketplace+",
+    "version": "1.1.1",
+    "manifestURI": "https://raw.githubusercontent.com/shido275/DaMarketplace/refs/heads/main/Plugin/Marketplace-Plus.json",
+    "language": "javascript",
+    "type": "plugin",
+    "description": "Improve Seanime's Extensions marketplace with live status badges (Working/Broken/Deprecated), star counts, sorting by most stars or recent updates, author search, sub/dub tags, and per-extension Discord support buttons.",
+    "author": "bas1874 & shido275",
+    "icon": "https://raw.githubusercontent.com/shido275/DaMarketplace/refs/heads/main/Icons/favicon.png",
+    "website": "https://github.com/shido275/DaMarketplace/tree/main",
+    "readme": "https://github.com/shido275/DaMarketplace/tree/main#how-to-install-the-marketplace-in-seanime",
+    "notes": "Add the custom marketplace URL in Settings → Extensions → Marketplace Sources, then open the Extensions page — badges, filters, sorting, and Support buttons appear directly on the marketplace cards. https://raw.githubusercontent.com/shido275/DaMarketplace/refs/heads/main/Marketplace/Main.json",
+    "lang": "multi",
+    "payloadURI": "https://raw.githubusercontent.com/shido275/DaMarketplace/refs/heads/main/Plugin/Marketplace-Plus.js",
+    "isDevelopment": false,
+    "plugin": {
+        "version": "1",
+        "permissions": {
+            "scopes": ["storage"],
+            "allow": {
+                "networkAccess": {
+                    "allowedDomains": ["raw.githubusercontent.com"],
+                    "reasoning": "Required to fetch extension metadata from the custom Seanime marketplace hosted on GitHub."
+                }
+            }
+        }
+    }
+}
